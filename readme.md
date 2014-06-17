@@ -1,0 +1,1 @@
+The Uberclock Encoder Wing was designed for use with Papilio (http://papilio.cc) and Smoothiepanel (http://smoothieware.org/smoothiepanel). It features an RGB illuminated click encoder and an illuminated button. It also supports the use of non-illuminated encoders and buttons for making an inexpensive interface.
