@@ -65,6 +65,8 @@
  This example code is in the public domain.
  */
 
+#define DEBOUNCE 50
+
 #define WING_AL 0
 #define WING_AH 8
 #define WING_BL 16
@@ -123,7 +125,7 @@ int read_encoder()
   }
   else if(enc_state == HIGH && new_state == LOW) {
     state_bounce++;
-    if(state_bounce > 500) {
+    if(state_bounce > DEBOUNCE) {
       state_bounce = 0;
       enc_state = LOW;
     }
@@ -131,6 +133,7 @@ int read_encoder()
   else {
     state_bounce = 0;
   }
+  return res;
 }
 
 void setup()
