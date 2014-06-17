@@ -1,0 +1,2 @@
+vhdtdtfi -lib zpuino ../Libraries/ZPUino_1/pad.vhd -lib zpuino ../Libraries/ZPUino_1/Wing_Analog.vhd -prj PSL_Papilio_One_500K -o Wing_Analog.spl -module Wing_Analog -template C:/Xilinx/14.3/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib zpuino ../Libraries/ZPUino_1/pad.vhd -lib zpuino ../Libraries/ZPUino_1/Wing_Analog.vhd -prj PSL_Papilio_One_500K -o Wing_Analog.spl -module Wing_Analog -template C:/Xilinx/14.3/ISE_DS/ISE//data/splfile.tft -deleteonerror 

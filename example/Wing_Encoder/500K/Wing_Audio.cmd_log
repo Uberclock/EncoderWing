@@ -1,0 +1,1 @@
+vhdtdtfi -lib zpuino ../Libraries/ZPUino_1/Wing_Audio.vhd -prj PSL_Papilio_One_500K -o Wing_Audio.spl -module Wing_Audio -template C:/Xilinx/14.3/ISE_DS/ISE//data/splfile.tft -deleteonerror 

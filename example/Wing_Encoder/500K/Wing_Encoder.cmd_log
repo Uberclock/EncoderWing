@@ -1,0 +1,7 @@
+vhdtdtfi -lib zpuino ../Libraries/ZPUino_1/Wing_Encoder.vhd -prj PSL_Papilio_One_500K -o Wing_Encoder.spl -module Wing_Encoder -template C:/Xilinx/14.3/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib zpuino ../Libraries/ZPUino_1/Wing_Encoder.vhd -prj PSL_Papilio_One_500K -o Wing_Encoder.spl -module Wing_Encoder -template C:/Xilinx/14.3/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib zpuino ../Libraries/ZPUino_1/Wing_Encoder.vhd -prj PSL_Papilio_One_500K -o Wing_Encoder.spl -module Wing_Encoder -template C:/Xilinx/14.3/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -prj PSL_Papilio_One_500K -o C:/Users/Logxen/Documents/Arduino/Papilio_EncoderWingTest/500K/Wing_Encoder.vhi -module Wing_Encoder -template C:/Xilinx/14.3/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib zpuino ../Libraries/ZPUino_1/Wing_Encoder.vhd 
+vhdtdtfi -lib zpuino ../Libraries/ZPUino_1/Wing_Encoder.vhd -prj PSL_Papilio_One_500K -o Wing_Encoder.spl -module Wing_Encoder -template C:/Xilinx/14.3/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work ../Libraries/ZPUino_1/Wing_Encoder.vhd -prj PSL_Papilio_One_500K -o Wing_Encoder.spl -module Wing_Encoder -template C:/Xilinx/14.3/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Wing_Encoder.spl C:/Users/Logxen/Documents/Arduino/Papilio_EncoderWingTest/Wing_Encoder.sym 

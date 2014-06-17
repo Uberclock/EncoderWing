@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Logxen/Documents/Arduino/Papilio_EncoderWingTest/500K/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Logxen/Documents/Arduino/Papilio_EncoderWingTest/500K/xst"
+elaborate
+-ifn Wing_Encoder.prj
+-ifmt mixed

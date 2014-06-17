@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="Wing_Encoder">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2014-6-1T20:13:53</timestamp>
+    <pin polarity="Input" x="0" y="-352" name="enc_led_r" />
+    <pin polarity="Input" x="0" y="-320" name="enc_led_g" />
+    <pin polarity="Input" x="0" y="-288" name="enc_led_b" />
+    <pin polarity="Input" x="0" y="-256" name="btn_led" />
+    <pin polarity="BiDirectional" x="416" y="-272" name="wt_miso(7:0)" />
+    <pin polarity="BiDirectional" x="416" y="-208" name="wt_mosi(7:0)" />
+    <pin polarity="Output" x="0" y="-192" name="enc_a" />
+    <pin polarity="Output" x="0" y="-160" name="enc_b" />
+    <pin polarity="Output" x="0" y="-128" name="btn_btn" />
+    <pin polarity="Output" x="0" y="-224" name="enc_btn" />
+    <graph>
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-352" type="pin enc_led_r" />
+        <line x2="0" y1="-352" y2="-352" x1="64" />
+        <line x2="0" y1="-320" y2="-320" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-320" type="pin enc_led_g" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-288" type="pin enc_led_b" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-256" type="pin btn_led" />
+        <line x2="0" y1="-256" y2="-256" x1="64" />
+        <rect width="288" x="64" y="-384" height="284" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="344" y="-272" type="pin wt_miso(7:0)" />
+        <rect width="64" x="352" y="-284" height="24" />
+        <line x2="416" y1="-272" y2="-272" x1="352" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="344" y="-208" type="pin wt_mosi(7:0)" />
+        <rect width="64" x="352" y="-220" height="24" />
+        <line x2="416" y1="-208" y2="-208" x1="352" />
+        <line x2="64" y1="-224" y2="-224" x1="0" />
+        <line x2="64" y1="-192" y2="-192" x1="0" />
+        <line x2="64" y1="-160" y2="-160" x1="0" />
+        <line x2="64" y1="-128" y2="-128" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-192" type="pin enc_a" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin enc_b" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-128" type="pin btn_btn" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin enc_btn" />
+        <attrtext style="alignment:BCENTER;fontsize:40;fontname:Arial" attrname="SymbolName" x="500" y="-296" type="symbol" />
+    </graph>
+</symbol>

@@ -1,0 +1,6 @@
+board	"../Libraries/ZPUino_1/board_Papilio_One_500k/zpu_config.vhd"
+board	"../Libraries/ZPUino_1/board_Papilio_One_500k/zpuino_config.vhd"
+board	"../Libraries/ZPUino_1/board_Papilio_One_500k/zpuinopkg.vhd"
+board	"../Libraries/ZPUino_1/board_Papilio_One_500k/zpupkg.vhd"
+zpuino	"../Libraries/ZPUino_1/prescaler.vhd"
+zpuino	"../Libraries/ZPUino_1/timer.vhd"
